@@ -99,7 +99,7 @@ public class PrimaryFragment extends Fragment {
 
     public List<CardInfo> createList(int size){
 
-        List<CardInfo> result = new ArrayList<CardInfo>();
+        List<CardInfo> result = new ArrayList<>();
         String prato = "Pizza Mexicana ";
         String local = "Mimmos ";
         String distancia = "150 m";

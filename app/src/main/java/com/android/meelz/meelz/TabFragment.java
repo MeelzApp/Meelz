@@ -11,9 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Ratan on 7/27/2015.
- */
+
 public class TabFragment extends Fragment {
 
     public static TabLayout tabLayout;
@@ -26,7 +24,7 @@ public class TabFragment extends Fragment {
         /**
          *Inflate tab_layout and setup Views.
          */
-            View x =  inflater.inflate(R.layout.tab_layout,null);
+            View x =  inflater.inflate(R.layout.tab_layout,container, false);
             tabLayout = (TabLayout) x.findViewById(R.id.tabs);
             viewPager = (ViewPager) x.findViewById(R.id.viewpager);
 
