@@ -10,7 +10,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity implements PrimaryFragment.OnFragmentInteractionListener{
+public class TelaInicial extends AppCompatActivity implements PrimaryFragment.OnFragmentInteractionListener{
     DrawerLayout mDrawerLayout;
     NavigationView mNavigationView;
     FragmentManager mFragmentManager;
