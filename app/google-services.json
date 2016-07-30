@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "376420471979",
+    "firebase_url": "https://meelz-391fb.firebaseio.com",
+    "project_id": "meelz-391fb",
+    "storage_bucket": "meelz-391fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376420471979:android:2ecfa5296cbdfe9a",
+        "android_client_info": {
+          "package_name": "com.android.meelz.meelz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376420471979-urij345f2gc08a3nntcgikirsdqads7l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.meelz.meelz",
+            "certificate_hash": "ADF38735A7079FFD90F2ABCBF2DC7C9033EBFD52"
+          }
+        },
+        {
+          "client_id": "376420471979-u56pq8qia529qdvelv2lqt87p7opq481.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuLry62YF_btgL6qBtbc4mGe8MkXrmVUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376420471979-u56pq8qia529qdvelv2lqt87p7opq481.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
