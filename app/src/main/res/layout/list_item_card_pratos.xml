@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_item_card"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    card_view:cardElevation="4dp"
+    card_view:cardBackgroundColor="@color/cardview_light_background"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/background_prato"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pizza_mexicana1"
+                >
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/transparentBlack"
+
+                >
+
+            <TextView
+                android:id="@+id/txt_nome_prato"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:text="Tosta mista"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_weight="1.9"
+                />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="2.5">
+
+                    <TextView
+                        android:id="@+id/txt_preco"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/white"
+                        android:text="350"
+                        android:textSize="17dp"
+                        android:paddingLeft="20dp"
+                        android:layout_weight="4.6"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/white"
+                        android:text="@string/label_meticais"
+                        android:textSize="17dp"
+                        android:layout_weight="1"
+                        />
+
+                </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/label_descricao"
+                android:paddingLeft="20dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:paddingTop="8dp"
+                android:layout_weight="2.5"
+                />
+            <TextView
+                android:id="@+id/txt_descricao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tosta feita com blablabla e tambem blablabla asdhgsadadh asjsgdhas"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingTop="8dp"
+                android:layout_weight="1.9"
+                />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+
